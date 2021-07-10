@@ -1,10 +1,18 @@
+body{
+    background-color: lightgrey;
+    
+}
 
+#number {
+    width: 3em;
+}
 
 .container{
     display: grid;
-    grid-template-columns: repeat(16,1fr);
+    grid-template-columns: repeat(20,1fr);
     border: solid;
-    width: fit-content;
+    width: 500px;
+    height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;

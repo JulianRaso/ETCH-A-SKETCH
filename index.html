@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="src/style/style.css">
 </head>
 <body>
-       <div id="container" class="container"></div> 
-    
+
+    <h1 style="text-align: center;margin-top: 5%;">Welcome to Etch-a-Sketch</h1>
+    <input type="number" id="number" min="16" max="100" style="width: 5%;">
+    <button id="button" onclick="gridBuild()">Set Size</button>
+    <div id="game">
+        <div id="container" class="container"></div> 
+    </div>
+
     <script src="src/source.js"></script>
 </body>
 </html>
